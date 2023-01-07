@@ -1,25 +1,32 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-header{
+
+/* =========== Header section start =========== */
+header {
     padding: 216px;
     padding: 216px 230px 166px 50%;
     background: url("./images/banner/banner1.png");
-    text-align: right;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
 }
-header h2{
+
+header h2 {
     font-weight: 700;
     font-size: 65px;
     color: #151414;
 }
-header p{
+
+header p {
     color: #444343;
     margin: 28px 0;
 }
-header button{
+
+header button {
     background-color: #F15B22;
     padding: 20px 25px;
     border-radius: 5px;
@@ -28,3 +35,41 @@ header button{
     font-weight: 600;
     color: white;
 }
+
+/* =========== Header section End =========== */
+
+/* =========== Main section Start =========== */
+main {
+    padding: 130px 230px;
+}
+
+/* =========== Section1 Start =========== */
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 87px;
+}
+.failures h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failures p{
+    color: #444343;
+    margin-bottom: 16px;
+}
+.failures ul{
+    color: #444343;
+    list-style: none;
+}
+.failures .fa{
+    color: #16D887;
+}
+.failures ul li{
+    margin-bottom: 7.5px;
+}
+/* =========== Section1 End =========== */
+
+/* =========== Main section End =========== */
