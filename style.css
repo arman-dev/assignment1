@@ -42,7 +42,6 @@ header button {
 main {
     padding: 130px 230px;
 }
-
 /* =========== Section1 Start =========== */
 .section1 {
     display: flex;
@@ -61,6 +60,9 @@ main {
 .failures p {
     color: #444343;
     margin-bottom: 16px;
+    word-break: break-all;
+    white-space: normal;
+    width: 100%;
 }
 
 .failures ul {
@@ -77,6 +79,25 @@ main {
 }
 
 /* =========== Section1 End =========== */
+
+/* =========== Blog section Start =========== */
+.blogs{
+    display: flex;
+    gap: 70px;
+    margin-top: 120px;
+}
+.blog-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.blog-description{
+    text-align: justify;
+    font-style: italic;
+}
+
+/* =========== Blog section End =========== */
 
 /* =========== my-plans Start =========== */
 .my-plans {
@@ -184,5 +205,6 @@ footer .right input[type=email] {
     width: 100%;
     margin-bottom: 16px;
     border: 1px solid white;
+    color: white;
 }
 /* =========== Footer End =========== */
