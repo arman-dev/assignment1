@@ -44,32 +44,74 @@ main {
 }
 
 /* =========== Section1 Start =========== */
-.section1{
+.section1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 87px;
 }
+
 .failures h2 {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
     margin-bottom: 24px;
 }
-.failures p{
+
+.failures p {
     color: #444343;
     margin-bottom: 16px;
 }
-.failures ul{
+
+.failures ul {
     color: #444343;
     list-style: none;
 }
-.failures .fa{
+
+.failures .fa {
     color: #16D887;
 }
-.failures ul li{
+
+.failures ul li {
     margin-bottom: 7.5px;
 }
+
 /* =========== Section1 End =========== */
+
+/* =========== my-plans Start =========== */
+.my-plans {
+    text-align: center;
+    margin: 130px 0;
+}
+
+.my-plans h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan img {
+    height: 92px;
+    margin-bottom: 24px;
+}
+
+.plan h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.plan p{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* =========== my-plans End =========== */
 
 /* =========== Main section End =========== */
